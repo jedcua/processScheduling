@@ -6,10 +6,10 @@ Simulates well known process scheduling algorithms using Java
 
 ## Scheduling Algortihms
 
-    * First Come First Serve
-    * Shortest Job First
-    * Shortest Remaining Time First
-    * Non-preemptive Priority
-    * Preemptive Priority
-    * Round Robin
+* First Come First Serve
+* Shortest Job First
+* Shortest Remaining Time First
+* Non-preemptive Priority
+* Preemptive Priority
+* Round Robin
 
