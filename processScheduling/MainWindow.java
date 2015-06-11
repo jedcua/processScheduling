@@ -1,53 +1,13 @@
 package processScheduling;
 
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import java.awt.BorderLayout;
-import javax.swing.JLabel;
-import javax.swing.SwingConstants;
-import javax.swing.JTable;
-import java.awt.Component;
-import javax.swing.Box;
-import javax.swing.JSplitPane;
-import java.awt.GridBagLayout;
-import javax.swing.BoxLayout;
-import java.awt.GridLayout;
-import java.awt.FlowLayout;
-import java.awt.GridBagConstraints;
-import java.awt.Insets;
-import javax.swing.JTextField;
-import javax.swing.JButton;
-import javax.swing.border.LineBorder;
-import java.awt.Color;
-import javax.swing.JSeparator;
-import javax.swing.JList;
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableModel;
-import javax.swing.AbstractButton;
-import javax.swing.ListSelectionModel;
-import javax.swing.JScrollPane;
-import javax.swing.JScrollBar;
-import javax.swing.JTabbedPane;
-import javax.swing.JRadioButton;
-import javax.swing.GroupLayout;
-import javax.swing.GroupLayout.Alignment;
-import javax.swing.ButtonGroup;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import javax.swing.AbstractAction;
-import java.awt.event.ActionEvent;
-import javax.swing.Action;
 import java.util.ArrayList;
 import java.util.Enumeration;
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.event.ChangeEvent;
-import javax.swing.JMenuBar;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
 public class MainWindow {
 
 	public JFrame frmProcessAlgorithmScheduler;
